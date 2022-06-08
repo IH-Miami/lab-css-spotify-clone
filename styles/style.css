@@ -104,9 +104,11 @@ header{
     text-decoration: underline;
     text-decoration-color: white;
     text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
     line-height: 1.6
 }
 
+/* mobile */
 @media(max-width: 425px){
     .three-images{
         display: flex;
